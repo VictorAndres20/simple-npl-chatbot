@@ -3,7 +3,7 @@ import random
 HELLO_INPUTS = ['hola', 'cómo estas', 'como estas', 'ola', 'oye', 'ey', 'q mas', 'buenas', 'buenos']
 HELLO_OUTPUTS = ['Hola!', 'Cómo te encuebtras hoy?', 'Ey! Que gusto que me escribas!', 'Panita!']
 
-BYE_INPUTS = ['Chao', 'bye', 'adios', 'adiós', 'cuidate']
+BYE_INPUTS = ['Chao', 'bye', 'adios', 'adiós', 'cuidate', 'chao']
 BYE_OUTPUTS = ['Hasta pronto!', 'Fue un placer hablar contigo', 'Un abrazo, saludos']
 
 TY_INPUTS = ['gracias', 'que buena ayuda', 'entendido']
