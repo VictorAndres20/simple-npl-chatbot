@@ -12,6 +12,10 @@ TY_OUTPUTS = ['No hay de qué!', 'Un placer ayudarte!']
 HAHA_INPUTS = ['haha', 'jaja', 'JAJA']
 HAHA_OUTPUTS = ['jajajajaja', 'jaja', 'JAJA', 'JAJAJAAJA']
 
+Q_OUTPUTS = ['Te gusta como juega messi?', 'Qué te parece el futbol europeo?',
+             'Cual crees que es el mejor jugador del mundo?', 'Juegas futbol?',
+             'Juegas futbol con tus amigos?']
+
 
 def find_coincidence(user_msg, arr_in, arr_out):
     for word in user_msg.split():
@@ -40,3 +44,7 @@ def ty_response(user_msg):
 
 def haha_response(user_msg):
     return find_start_coincidence(user_msg, HAHA_INPUTS, HAHA_OUTPUTS)
+
+
+def q_response():
+    return random.choice(Q_OUTPUTS)
